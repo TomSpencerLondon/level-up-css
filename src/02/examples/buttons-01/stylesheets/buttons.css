@@ -1,0 +1,58 @@
+/* Styles for the buttons */
+
+.button {
+  background: none;
+  position: relative;
+  text-decoration: none;
+}
+
+.button::before {
+  background: rgba(200,200,200,.8);
+  content: "";
+  position: absolute;
+    top: .5em;
+    right: 0;
+    bottom: -.1em;
+    left: 0;
+  z-index: -1;
+}
+
+.button::after {
+  background: linear-gradient(to bottom, #48CA24, #FD0A69 90%);
+  background-size: 100% 500%;
+  content: "";
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  transition: all 10s cubic-bezier(0,.5,.5,1);
+  z-index: -1;
+}
+
+.button:hover {
+  animation: pulse 1s ease-out infinite;
+  text-decoration: none;
+}
+
+.button:hover::after {
+  background-position: 0 100%;
+}
+
+.button:active {
+  animation: none;
+  transform: translateY(.2em);
+}
+
+.button:active::before {
+  transform: translateY(-.1em);
+}
+
+@keyframes pulse {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,73 @@
+http://scrollmagic.io
+Example: https://digital.scotch.io
+
+(1) Introducing the hero
+- Goal: Build an impressive animation header to show off your brand
+- Lectures:
+- What is a Hero header?
+- Animating the background
+- Introducing the titles
+- Adding a scroll cue
+- Combining multiple animations
+- Making animations wait till the content is ready
+- Examples to download and use (some inspiration animations here https://avocode.com/design-report-2016/#content)
+
+(2) Hover effects
+- Goal: Make our designs feel alive with touch and hover animations
+
+(3) Grabbing attention with scroll animations
+- Goal: Trigger custom animations when scrolling
+
+(4) Build an animated carousel
+- Goal: Build an animated, interactive series of quotes to showcase content
+
+(5) Adjusting animations for all screen sizes
+- Goal: Adapt our animations for a wide range of screen sizes
+Content:
+- Planning for difference screen sizes: Percentages and ems
+- Walkthrough: ems and breakpoints
+- Walkthrough: %-sized animation based on screen size
+- Scaling SVGs (two examples)
+- Tips for testing various screen sizes in browser
+
+
+
+
+(6) Putting it all together (free bonus for the full-package supporters?)
+- Goal: Get organised using Sass, reusing animation timing functions and keyframes
+- Preparing for older browsers using Modernizr (detecting css animations, requestAnimationFrame)
+- Adding will-change to the correct properties
+- Autoprefixer and Gulp Sass
+
+Example for 6: 
+
+
+:root {
+  --tf-bounce: cubic-bezier(0,1.7,.3,1);
+  --tf-expo-out: cubic-bezier(0,1,.3,1);
+}
+
+.option {
+  transition: transform 5s var(--tf-bounce),
+              background .2s ease-out;
+}
+
+.option * {
+  transition: transform .5s var(--tf-expo-out);
+}
+
+
+
+STRUCTURE
+
+# Title
+
+[Intro]
+
+[What we will learn]
+
+[Main content]
+
+## What we learned
+
+[Next: Title]

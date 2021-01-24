@@ -1,0 +1,24 @@
+# Examples to download
+
+Can you think of other interesting effects your can achieve with scrolling? Maybe trigger some SVG animations? Add parallax scrolling to dynamic content?
+
+Below you'll find links to some of the tools mentioned. Experiment and find what works for you!
+
+I've also created some more examples of scroll-based animations. You'll find them in your downloaded zip file, [03.zip](https://cssanimation.rocks/levelup/public/03/03.zip) in the `examples` folder.
+
+In the `examples` folder you'll find:
+
+* Scroll Quote: Scroll the page to see the quotation with background image animate into place
+* Animated SVGs: Scroll and see the SVG badges draw themselves
+* Parallax animation: Dynamically generated bubbles pop up in the screen and have parallax animation applied so they sit in front of and behind the content
+* Generic mouse-leave modal: In case you want to style up your own mouse-leave event, this could be a starting point
+
+## Useful resources
+
+* [Scrollmagic](http://scrollmagic.io/)
+* [Scrolltrigger](https://github.com/terwanerik/ScrollTrigger)
+* [Rellax](https://github.com/dixonandmoe/rellax)
+
+If you do use these or any ideas in the course on your projects, do let me know! I'll be happy to add them here as an example to inspire other students!
+
+

@@ -1,0 +1,41 @@
+header {
+  align-items: center;
+  background: #333;
+  display: flex;
+  font-size: 18px;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 100px;
+  position: relative;
+  text-align: center;
+  transform-style: preserve-3d;
+}
+
+header::after {
+  background: #F9FCFF;
+  content: "";
+  height: 40rem;
+  left: -5%;
+  position: absolute;
+    right: -5%;
+    top: 90%;
+  transform-origin: 0 0;
+  transform: rotateZ(-4deg);
+}
+
+.header-title, .header-subtitle {
+  color: #fff;
+}
+
+.header-subtitle {
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+}
+
+.header-button {
+  transform: translateZ(.1px);
+  position: relative;
+  z-index: 10;
+}
+
